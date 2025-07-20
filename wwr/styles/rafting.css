@@ -1,11 +1,9 @@
-/* Reset box model */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Root variables */
 :root {
     --primary-color: #00B4D8;
     --secondary-color: #8BC0FF;
@@ -16,13 +14,11 @@
     --body-font: "Montserrat", sans-serif;
 }
 
-/* Body */
 body {
     font-family: var(--body-font);
     color: var(--accent1-color);
 }
 
-/* Page layout width */
 header,
 main,
 footer {
@@ -30,14 +26,12 @@ footer {
     margin: 0 auto;
 }
 
-/* Headings */
 h1,
 h2 {
     font-family: var(--heading-font);
     color: var(--primary-color);
 }
 
-/* Spacing */
 nav,
 p,
 section,
@@ -46,7 +40,6 @@ article {
     padding: 8px;
 }
 
-/* Header style */
 header {
     background-color: var(--primary-color);
     color: var(--accent2-color);
@@ -63,7 +56,6 @@ header nav {
     margin-top: 40px;
 }
 
-/* Social media links */
 .socialmedia a {
     text-decoration: none;
 }
@@ -83,7 +75,6 @@ footer .socialmedia img {
     margin: 0 8px;
 }
 
-/* Hero section */
 .hero {
     position: relative;
 }
@@ -122,7 +113,6 @@ footer .socialmedia img {
     margin: 0 0 8px 12px;
 }
 
-/* Adventure images */
 section img {
     display: block;
     width: 100%;
