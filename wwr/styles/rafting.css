@@ -33,15 +33,17 @@ h2 {
 }
 
 header {
-    background-color: var(--primary-color);
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: auto 1fr;
     align-items: center;
+    background-color: var(--primary-color);
     padding: 16px;
+    column-gap: 250px;
 }
 
+
 header img {
-    width: 100px;
+    width: 80px;
 }
 
 header nav a {
