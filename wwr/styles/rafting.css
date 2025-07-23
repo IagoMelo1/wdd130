@@ -135,23 +135,22 @@ section h2 {
 }
 
 .history-left {
-    width: 300px;
+    width: 250px;
     text-align: left;
     font-family: "Montserrat", sans-serif;
     color: #333;
 }
 
 .history-right {
-    width: 300px;
+    width: 250px;
     text-align: right;
     font-family: "Montserrat", sans-serif;
     color: #333;
 }
 
 .history-img img {
-    width: 220px;
+    width: 180px;
     height: auto;
-    border-radius: 8px;
 }
 
 .adventure {
@@ -170,7 +169,6 @@ section h2 {
     justify-content: center;
     gap: 24px;
     flex-wrap: wrap;
-    /* Responsivo */
 }
 
 .adventure-gallery figure {
