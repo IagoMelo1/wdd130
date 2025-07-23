@@ -49,7 +49,7 @@ header img {
 header nav a {
     text-decoration: none;
     margin-left: 16px;
-    background-color: #005b99;
+    background-color: #0077b6;
     padding: 6px 12px;
     color: #ffffff;
     font-weight: bold;
@@ -75,11 +75,12 @@ header nav a {
     opacity: 0.7;
     background-color: var(--accent1-color);
     color: #ffffff;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.7);
 }
 
 .hero article h2 {
-    color: #005b99;
+    color: #004c75;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
     position: relative;
     text-align: center;
 }
@@ -89,7 +90,7 @@ header nav a {
     align-content: center;
     bottom: 20px;
     right: 20px;
-    background-color: #d4ff88;
+    background-color: #d1f57b;
     padding: 16px;
     max-width: 800px;
     height: 230px;
@@ -98,7 +99,7 @@ header nav a {
 }
 
 .hero article p {
-    color: #003344;
+    color: #002c3e;
     position: relative;
     text-align: left;
 }
@@ -200,7 +201,7 @@ section h2 {
 
 footer p {
     text-align: center;
-    color: var(--primary-color);
+    color: #0077b6;
 
 }
 
