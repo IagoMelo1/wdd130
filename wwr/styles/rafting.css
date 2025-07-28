@@ -45,6 +45,12 @@ header img {
     width: 80px;
 }
 
+header nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
 header nav a {
     text-decoration: none;
     margin-left: 16px;
