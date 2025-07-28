@@ -58,12 +58,10 @@ fieldset {
 /* Cada linha do formulário como grid com duas colunas: label e input */
 .field-row {
     display: grid;
-    grid-template-columns: 150px 1fr;
+    grid-template-columns: 120px 1fr;
     align-items: center;
     margin-bottom: 1rem;
-    gap: 0.5rem;
 }
-
 
 /* 6. Legenda do fieldset */
 legend {
