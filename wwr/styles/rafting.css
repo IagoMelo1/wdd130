@@ -288,7 +288,7 @@ form button:hover {
 .radio-group,
 .checkbox-group {
     display: flex;
-    flex-direction: left column;
+    flex-direction: row;
     gap: 10px;
     margin-bottom: 16px;
     font-family: var(--body-font);
