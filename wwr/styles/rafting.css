@@ -61,7 +61,6 @@ header nav a {
     border-radius: 4px;
 }
 
-/* HERO SECTION */
 .hero {
     position: relative;
 }
@@ -115,7 +114,6 @@ header nav a {
     margin: 0 0 100px 12px;
 }
 
-/* HISTORY SECTION */
 .history {
     text-align: center;
     padding: 32px 16px;
@@ -156,7 +154,6 @@ header nav a {
     height: auto;
 }
 
-/* ADVENTURE SECTION */
 .adventure {
     text-align: center;
     padding: 40px 16px;
@@ -195,7 +192,6 @@ header nav a {
     font-family: "Montserrat", sans-serif;
 }
 
-/* FOOTER */
 footer p {
     text-align: center;
     color: var(--primary-color);
