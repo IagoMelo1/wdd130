@@ -45,11 +45,16 @@ p {
 main img {
     width: 150px;
     height: auto;
+    border: ;
+    padding: ;
     float: right;
     margin-left: 1rem;
+    box-shadow: ;
 }
 
-main {}
+main {
+    max-width: ;
+}
 
 /* Aside Image (Cristo Redentor) */
 aside {
