@@ -58,7 +58,8 @@ main {
 
 /* Aside Image (Cristo Redentor) */
 aside {
-    width: 20rem;
+    width: 25rem;
+    height: 15rem;
     margin: 1rem;
     padding: 1rem;
     border: 1px solid rgb(0 0 0 / 0.2);
@@ -68,19 +69,19 @@ aside {
     position: relative;
 }
 
-aside h1 {
-    font-size: x-large;
+aside h2 {
     position: absolute;
     top: 1rem;
-    left: 4.3rem;
-    background-color: rgba(163, 234, 252, 0.8);
+    left: 12.5rem;
+    background-color: rgba(255, 255, 255, 0.8);
     padding: 0.5rem;
 }
 
 aside img {
     width: 200px;
     height: auto;
-    float: right margin-left: 1rem;
+    float: right;
+    margin-left: 5rem;
 }
 
 /* Footer */
