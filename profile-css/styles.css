@@ -59,7 +59,7 @@ main {
 /* Aside Image (Cristo Redentor) */
 aside {
     width: 25rem;
-    height: 20rem;
+    height: 15rem;
     margin: 1rem;
     padding: 1rem;
     border: 1px solid rgb(0 0 0 / 0.2);
@@ -79,7 +79,7 @@ aside h2 {
 }
 
 aside img {
-    width: 200px;
+    width: 140px;
     height: auto;
     float: right;
     margin-top: 3rem;
