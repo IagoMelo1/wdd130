@@ -45,15 +45,15 @@ p {
 main img {
     width: 150px;
     height: auto;
-    border: none;
-    padding: none;
+    border: rgb(0 0 0 / 10%);
+    padding: 0%;
     float: right;
     margin-left: 1rem;
     box-shadow: none;
 }
 
 main {
-    max-width: fit-content;
+    max-width: none;
 }
 
 /* Aside Image (Cristo Redentor) */
