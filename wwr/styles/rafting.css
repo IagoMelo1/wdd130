@@ -213,6 +213,19 @@ footer .socialmedia img {
 }
 
 /* CONTACT PAGE STYLES */
+.info-and-team {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.info-and-team .contact-details,
+.info-and-team .employee-profiles {
+    flex: 1 1 350px;
+}
+
 .contact-details,
 .employee-profiles,
 .contact-form {
@@ -250,12 +263,22 @@ footer .socialmedia img {
 
 .employee-profiles figure {
     text-align: center;
+    width: 160px;
+    margin: 0;
 }
 
 .employee-profiles img {
     width: 160px;
     height: 130px;
     border-radius: 12px;
+}
+
+.contact-form {
+    margin-top: 60px;
+}
+
+.contact-form h2 {
+    text-align: center;
 }
 
 form input,
@@ -279,10 +302,6 @@ form button {
 
 form button:hover {
     background-color: #0a0ebd;
-}
-
-.contact-form h2 {
-    text-align: center;
 }
 
 .radio-group,
