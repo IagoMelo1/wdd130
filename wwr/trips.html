@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Browse our white water rafting trips with details on difficulty, length, and pricing.">
+  <meta name="author" content="Iago Melo">
+  <title>White Water Rafting | Trips</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Montserrat&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles/rafting.css">
+</head>
+<body>
+  <header>
+    <img src="images/wwr-logo.png" alt="Rafting Company Logo">
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About Us</a>
+      <a href="trips.html">Trips</a>
+      <a href="contact.html">Contact Us</a>
+    </nav>
+  </header>
+
+  <main>
+    <h1>Trips</h1>
+    <p>Choose from guided adventures for every skill level. All trips include safety gear and a pre‑launch briefing.</p>
+
+    <!-- FEATURED TRIPS AS CARDS (reusing gallery styles) -->
+    <section class="adventure" aria-labelledby="featured-title">
+      <h2 id="featured-title">Featured Adventures</h2>
+      <div class="adventure-gallery">
+        <figure>
+          <img src="images/rafting1.jpg" alt="Calm section beginner trip">
+          <figcaption>River Breeze — Class I–II | 2 hrs</figcaption>
+        </figure>
+        <figure>
+          <img src="images/rafting2.jpg" alt="Mid‑level waves">
+          <figcaption>Canyon Runner — Class II–III | Half‑Day</figcaption>
+        </figure>
+        <figure>
+          <img src="images/rafting3.jpg" alt="Long scenic day trip">
+          <figcaption>Scenic Marathon — Class II–III | Full‑Day</figcaption>
+        </figure>
+        <figure>
+          <img src="images/rafting4.jpg" alt="Big rapid advanced waves">
+          <figcaption>Thunder Falls — Class III–IV | Full‑Day</figcaption>
+        </figure>
+        <figure>
+          <img src="images/rafting5.jpg" alt="Team celebrating multi‑day">
+          <figcaption>Wild Frontier — Class III–IV | 2 Days</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- TRIPS TABLE -->
+    <section class="contact-details" aria-labelledby="table-title">
+      <h2 id="table-title">Trips, Difficulty & Pricing</h2>
+      <div style="overflow-x:auto;">
+        <table style="width:100%; border-collapse:collapse; font-family: var(--body-font);">
+          <thead>
+            <tr>
+              <th style="text-align:left; padding:10px; border-bottom: 2px solid #ccc;">Trip</th>
+              <th style="text-align:left; padding:10px; border-bottom: 2px solid #ccc;">Difficulty</th>
+              <th style="text-align:left; padding:10px; border-bottom: 2px solid #ccc;">Duration</th>
+              <th style="text-align:left; padding:10px; border-bottom: 2px solid #ccc;">Price (USD)</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td style="padding:8px; border-bottom:1px solid #eee;">River Breeze</td>
+              <td style="padding:8px; border-bottom:1px solid #eee;">Class I–II (Easy)</td>
+              <td style="padding:8px; border-bottom:1px solid #eee;">2 hours</td>
+              <td style="padding:8px; border-bottom:1px solid #eee;">$59</td>
+            </tr>
+            <tr>
+              <td style="padding:8px; border-bottom:1px solid #eee;">Canyon Runner</td>
+              <td style="padding:8px; border-bottom:1px solid #eee;">Class II–III (Moderate)</td>
+              <td style="padding:8px; border-bottom:1px solid #eee;">Half‑Day</td>
+              <td style="padding:8px; border-bottom:1px solid #eee;">$119</td>
+            </tr>
+            <tr>
+              <td style="padding:8px; border-bottom:1px solid #eee;">Scenic Marathon</td>
+              <td style="padding:8px; border-bottom:1px solid #eee;">Class II–III (Moderate)</td>
+              <td style="padding:8px; border-bottom:1px solid #eee;">Full‑Day</td>
+              <td style="padding:8px; border-bottom:1px solid #eee;">$179</td>
+            </tr>
+            <tr>
+              <td style="padding:8px; border-bottom:1px solid #eee;">Thunder Falls</td>
+              <td style="padding:8px; border-bottom:1px solid #eee;">Class III–IV (Challenging)</td>
+              <td style="padding:8px; border-bottom:1px solid #eee;">Full‑Day</td>
+              <td style="padding:8px; border-bottom:1px solid #eee;">$219</td>
+            </tr>
+            <tr>
+              <td style="padding:8px; border-bottom:1px solid #eee;">Wild Frontier (Overnighter)</td>
+              <td style="padding:8px; border-bottom:1px solid #eee;">Class III–IV (Challenging)</td>
+              <td style="padding:8px; border-bottom:1px solid #eee;">2 Days / 1 Night</td>
+              <td style="padding:8px; border-bottom:1px solid #eee;">$399</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <p style="margin-top:12px; font-size:0.95rem;">Prices include gear (PFD, helmets, paddles). Taxes not included. Minimum age varies by trip.</p>
+    </section>
+
+    <!-- CTA TO CONTACT -->
+    <section class="contact-form" aria-labelledby="book-title">
+      <h2 id="book-title">Questions or Ready to Book?</h2>
+      <p style="text-align:center; margin-bottom: 12px;">Send us a message with your preferred dates and group size and we’ll confirm availability.</p>
+      <div class="form-button-row" style="text-align:center;">
+        <a href="contact.html" style="display:inline-block; text-decoration:none;">
+          <button type="button">Contact Us</button>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-container">
+      <p>&copy; 2025 Whitewater Rafting Company | Developed by Iago Melo</p>
+      <nav class="socialmedia">
+        <a href="https://facebook.com"><img src="images/facebook.svg" alt="Facebook"></a>
+        <a href="https://twitter.com"><img src="images/twitter.svg" alt="Twitter"></a>
+        <a href="https://instagram.com"><img src="images/instagram.svg" alt="Instagram"></a>
+      </nav>
+    </div>
+  </footer>
+</body>
+</html>
