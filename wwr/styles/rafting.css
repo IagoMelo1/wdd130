@@ -181,23 +181,21 @@ header nav a {
 }
 
 .adventure-gallery {
-    display: flex;
-    justify-content: center;
-    gap: 24px;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+    gap: 18px;
 }
 
 .adventure-gallery figure {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 142px;
-    margin: 0;
+    display: grid;
+    grid-template-rows: auto auto;
+    gap: 8px;
 }
 
 .adventure-gallery img {
-    width: 110%;
-    height: 50%;
+    width: 100%;
+    height: 120px;
+    object-fit: cover;
 }
 
 .adventure-gallery figcaption {
@@ -299,10 +297,18 @@ footer .socialmedia img {
 }
 
 .contact-form {
-    margin-top: 60px;
+    margin-top: 40px;
 }
 
 .contact-form h2 {
+    text-align: center;
+}
+
+.contact-form p {
+    margin-top: 1rem;
+}
+
+.form-button-row {
     text-align: center;
 }
 
